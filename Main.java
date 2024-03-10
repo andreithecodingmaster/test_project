@@ -8,6 +8,7 @@ public class Main {
                 if(array[i] < target) {
                     if(array[j] == (target - array[i])) {
                         System.out.println(i + " " + j);
+                        System.out.println("Hello World");
                     }
                 }
             }
